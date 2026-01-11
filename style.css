@@ -58,6 +58,10 @@ input[type="number"] {
     padding: 8px;
     margin: 10px 0;
 }
+input:focus {
+    outline: none;
+    border-left: rgb(18, 18, 194);
+}
 
 .investor-group {
     display: flex;
@@ -115,7 +119,7 @@ input[type="number"] {
     visibility: visible;
 }
 h1 {
-    color:#7B8A92 ;
+    color:black ;
 }
  .Terms {
     color:blue;
@@ -125,6 +129,10 @@ button {
     color: white;
 }
 h3 {
-    color: #2A4A5C;
+    color: #96A5B1;
+    font-size: 16px;
+}
+p{
+    color: #96A5B1;
     font-size: 16px;
 }
