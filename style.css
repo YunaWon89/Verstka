@@ -11,11 +11,8 @@ body {
     background-color: #FFFFFF;
 }
 .left {
- 
- 
-  
-   
-   
+ display: flexbox;
+
 
 }
 .right {
@@ -61,17 +58,13 @@ input[type="number"] {
     padding: 8px;
     margin: 10px 0;
 }
-.divider {
-    text-align: center;
-    margin: 20px 0;
-    color: #999;
-}
+
 .investor-group {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-investor-item {
+.investor-item {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -91,13 +84,14 @@ investor-item {
     font-size: 11px;
 }
 .tooltip {
+    width: 1px;
     position: relative;
     bottom: 140%;
     left: 50%;
     transform: translateX(-50%);
     background: #FFFFFF;
-    color: #96A5B1;
-    padding: 6px 8px;
+    color: #AFAFAF;
+    padding: 5px 0px;
     font-size: 15px;
     border-radius: 4px;
     white-space: nowrap;
