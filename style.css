@@ -5,8 +5,8 @@ body {
 }
 .container {
   display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin: 50px;
     background-color: #FFFFFF;
 }
@@ -18,8 +18,8 @@ body {
 .logo{
     position: absolute;
     z-index: 2;
-  top: 15px;
-  left: 30px;
+  top: 53px;
+  left: 55px;
 }
 .right {
     width: 45%;
@@ -49,26 +49,28 @@ button {
     padding-bottom: 15px;
 }
 .line{
-    width: 1px;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+width: 1px;
     height: 150px;
  background-color: #96A5B1;
- display: flex;
- flex-direction: row;
- align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
 }
-input[type="email"] {
+input[type="email"] :focus {
+    border-left: 3px solid #1a73e8;
     padding: 8px;
     margin: 10px 0;
-}
-input[type="number"] {
-    padding: 8px;
-    margin: 10px 0;
-}
-input:focus {
-    outline: none;
-    border-left: rgb(18, 18, 194);
 }
 
+input[type="number"] :focus {
+    border-left: 3px solid #1a73e8;
+    padding: 8px;
+    margin: 10px 0;
+}
 .investor-group {
     display: flex;
     gap: 30px;
