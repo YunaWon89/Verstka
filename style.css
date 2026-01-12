@@ -11,9 +11,15 @@ body {
     background-color: #FFFFFF;
 }
 .left {
- display: flexbox;
+ position: relative;
+ z-index: 1;
 
-
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+  top: 15px;
+  left: 30px;
 }
 .right {
     width: 45%;
