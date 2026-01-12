@@ -64,12 +64,14 @@ input[type="email"] :focus {
     border-left: 3px solid #1a73e8;
     padding: 8px;
     margin: 10px 0;
+    color: #AFAFAF ;
 }
 
 input[type="number"] :focus {
     border-left: 3px solid #1a73e8;
     padding: 8px;
     margin: 10px 0;
+    color: #AFAFAF ;
 }
 .investor-group {
     display: flex;
