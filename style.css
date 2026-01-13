@@ -56,8 +56,8 @@ width: 1px;
     height: 150px;
  background-color: #96A5B1;
 display: flex;
-justify-content: center;
-align-items: center;
+justify-content: flex-end;
+align-items: flex-end;
 gap: 10px;
 }
 input[type="email"] :focus {
@@ -108,7 +108,7 @@ input[type="number"] :focus {
     padding: 5px 0px;
     font-size: 15px;
     border-radius: 4px;
-    white-space: nowrap;
+    white-space: wrap;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.2s;
@@ -133,6 +133,7 @@ h1 {
 }
  .Terms {
     color:blue;
+    cursor: pointer;
  }
 button {
     background-color: #3698FB;
