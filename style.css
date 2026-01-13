@@ -29,6 +29,11 @@ body {
     color:#2A4A5C ;
     font-weight: bold;
 }
+.socials{
+    display: flex;
+  justify-content: center;
+    gap: 60px;
+}
 button {
     width: 40%;
     padding: 10px;
