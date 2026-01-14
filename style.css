@@ -24,6 +24,10 @@ body {
 .right {
     width: 45%;
     padding: 40px;
+    display: flexbox;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 50px;
 }
 .right p {
     color:#2A4A5C ;
@@ -31,7 +35,7 @@ body {
 }
 .socials{
     display: flex;
-  justify-content: center;
+  justify-content: flex-start;
     gap: 60px;
 }
 button {
@@ -51,10 +55,10 @@ button {
     background-color:#0076B6;
     color: white;
     margin: 0px;
-    padding-bottom: 15px;
+    padding-bottom:15px;
 }
 .line{
-width: 100%;
+width: 90%;
 color: #96A5B1;
 display: flex;
 align-items: center;
