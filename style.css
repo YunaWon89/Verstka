@@ -78,7 +78,9 @@ body {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 90px;
+height: 45px;
+gap: 100px;
+ 
 }
 /* added */
 .form-group {
@@ -160,13 +162,11 @@ input[type="number"] :focus {
 }
 .info {
   position: relative;
-  width: 13px;
-  height: 13px;
-  border: 1px solid #afafaf;
+  width: 7px;
+  height: 10px;
+  border: 2.7px solid #afafaf;
   border-radius: 50%;
-  font-size: 10px;
-
-
+  font-size: 5px;
  
 }
 .tooltip {
