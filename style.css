@@ -196,13 +196,14 @@ input[type="number"] :focus {
 h1 {
   color: black;
 }
-.Terms {
+.terms-link {
   color: blue;
   cursor: pointer;
 }
 button {
   background-color: #3698fb;
   color: white;
+  width: 230px;
 }
 h3 {
   color: #96a5b1;

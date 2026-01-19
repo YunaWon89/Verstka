@@ -1,90 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verstka</title>>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <div class="container">
-            <div class="left">
-            <img src="img/bg.jpg" width="1000px" alt="illustration">
-            <div class="logo">
-                <img src="img/logo.svg" width="150px" alt="">
-            </div>
-</div>
-    <div class="right">
-        <h1><b>Get iinto it today</b></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verstka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="left">
+        <img src="img/bg.jpg" alt="Illustration" class="bg-image" />
+
+        <div class="logo">
+          <img src="img/logo.svg" alt="Logo" class="logo-image" />
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right">
+        <h1>Get into it today</h1>
+        <br>
         <p>There is no charge or obligation upon registration.</p>
-        <br><br><br>
-        <div class="socials"><button class="fb"><img src="img/facebook.svg" width="20px" alt="">
-Register with Facebook</button>
-<button class="in"><img src="img/linkedin.svg" width="20px" >
-Register with Linkedin</button>
-</div>
-<div>
-    <div class="line">
-    <span>OR</span> 
-</div> 
-<br><br><br>
-<form>
-<input type="email" placeholder="Email" required class="field">
-<input type="number" placeholder="Phone" required>
-<h1><b>What type of investor are you?</b></h1>
-<h3>Select the type of investor you are below.</h3>
-<br><br><br>
-<div class="investor-group">
-    <label class="investor-item">
-        <input type="radio" name="investor" checked>
-   <span class="text">Individual</span>
-   <div class="info">
-    i
-   <div class="tooltip">
-    I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
-   </div>
-   </div>
-</label>
-<br>
- <label class="investor-item">
-        <input type="radio" name="investor">
-   <span class="text">Business</span>
-   <div class="info">
-    i
-   <div class="tooltip">
-    I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
-   </div>
-   </div>
-</label>
-<br>
- <label class="investor-item">
-        <input type="radio" name="investor">
-   <span class="text">IRA</span>
-   <div class="info">
-    i
-   <div class="tooltip">
-    I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
-   </div>
-</div>
-</label>
- <label class="investor-item">
-        <input type="radio" name="investor">
-   <span class="text">Trust</span>
-   <div class="info">
-    i
-   <div class="tooltip">
-    I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
-   </div>
-</div>
-</label>
-</div>
-<br><br><br>
-<label>
-    <input type="checkbox" name="Terms">I agree to the terms and receiving notifications from iintoo</label width="0"> 
-<span class="Terms"><u> View full terms</u></span></label>
-<br><br><br><br><br>
-<button>Create Account</button>
-</form>
-</div>
-</body>
+<br><br><br><br>
+        <div class="socials">
+          <button class="fb" type="button">
+            <img src="img/facebook.svg" alt="Facebook" width="20" />
+            Register with Facebook
+          </button>
+
+          <button class="in" type="button">
+            <img src="img/linkedin.svg" alt="LinkedIn" width="20" />
+            Register with LinkedIn
+          </button>
+        </div>
+
+        <div class="line">
+          <span>OR</span>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <input type="email" class="field" placeholder="Email" required />
+
+            <input type="tel" class="field" placeholder="Phone" required />
+          </div>
+<br><br>
+          <h2>What type of investor are you?</h2>
+          <br>
+          <p>Select the type of investor you are below.</p>
+<br><br>
+          <div class="investor-group">
+            <label class="investor-item">
+              <input type="radio" name="investor" checked />
+              <span class="text">Individual</span>
+
+              <span class="info">
+                i
+                <span class="tooltip">
+                  I am a natural person investing on my own behalf as a sole
+                  owner, joint tenant, or tenant in common.
+                </span>
+              </span>
+            </label>
+
+            <label class="investor-item">
+              <input type="radio" name="investor" />
+              <span class="text">Business</span>
+
+              <span class="info">
+                i
+                <span class="tooltip">
+                  I am a legal entity investing on behalf of the business.
+                </span>
+              </span>
+            </label>
+
+            <label class="investor-item">
+              <input type="radio" name="investor" />
+              <span class="text">IRA</span>
+
+              <span class="info">
+                i
+                <span class="tooltip">
+                  I am investing through an Individual Retirement Account.
+                </span>
+              </span>
+            </label>
+
+            <label class="investor-item">
+              <input type="radio" name="investor" />
+              <span class="text">Trust</span>
+
+              <span class="info">
+                i
+                <span class="tooltip">
+                  I am investing through a trust structure.
+                </span>
+              </span>
+            </label>
+          </div>
+<br><br><br><br>
+          <label class="terms">
+            <input type="checkbox" required />
+           
+            I agree to the terms and receiving notifications from iintoo
+            <span class="terms-link"><u>View full terms</u></span>
+          </label>
+          <br><br><br><br>
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
